@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <div>
       <Main />
+       <h1>Netflix app</h1>
       <Row rowID="1" title="UpComing" fetchURL={requests.requestUpcoming} />
       <Row rowID="2" title="Popular" fetchURL={requests.requestPopular} />
       <Row rowID="3" title="Trending" fetchURL={requests.requestTrending} />
